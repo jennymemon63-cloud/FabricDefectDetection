@@ -2,8 +2,7 @@ from PIL import Image
 import streamlit as st
 from ultralytics import YOLO
 
-MODEL_DIR = './runs/detect/train/weights/best.pt'
-
+MODEL_DIR = '/content/driver/MyDrive/fabric defect/runs/detect/train/weights/best.pt'
 
 def main():
     # load a model
