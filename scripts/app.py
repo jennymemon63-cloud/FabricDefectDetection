@@ -1,3 +1,5 @@
+import os
+os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"
 from PIL import Image
 import streamlit as st
 from ultralytics import YOLO
